@@ -1,0 +1,231 @@
+ERROR:fastapi:Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+INFO:root:User: when are open | Bot: None
+INFO:root:User: open | Bot: None
+INFO:root:User: where are you located | Bot: We are located at 123 Main Street, Cityville.
+INFO:root:User: open hours | Bot: None
+INFO:root:User: what are your hours | Bot: Our business hours are Monday to Friday, 9 AM to 5 PM.
+INFO:root:User: what are your hours | Bot: Our business hours are 9am to 5pm Monday to Friday.
+INFO:root:User: hours | Bot: None
+INFO:root:User: when does shop open | Bot: None
+INFO:root:User: open hours | Bot: None
+INFO:root:User: do you do refunds | Bot: Yes, we offer refunds within 30 days of purchase.
+INFO:root:User: payment methods | Bot: We accept Visa, MasterCard, and PayPal.
+INFO:root:User: types of physiotherapy techniques do you use | Bot: Our therapists use techniques such as manual therapy, exercise therapy, electrotherapy, and more.
+INFO:root:User: buisness hours | Bot: None
+INFO:root:User: cinic hours | Bot: None
+INFO:root:User: clinic hours | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: payment methods | Bot: None
+INFO:root:User: payment method | Bot: None
+INFO:root:User: what payment method you accept | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: do you treat childeren | Bot: Yes, we provide physiotherapy services for patients of all ages.
+INFO:root:User: payment method you accept | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method | Bot: None
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: do you treat kids | Bot: Yes, we specialize in treating a wide range of sports injuries.
+INFO:root:User: what therapy you do | Bot: None
+INFO:root:User: what conditions do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: session cost | Bot: Session costs vary depending on treatment type. Please contact us for detailed pricing.
+INFO:root:User: do you do message | Bot: Yes, massage therapy is available as part of our treatment options.
+INFO:root:User: how long is typical session | Bot: Each physiotherapy session typically lasts between 45 minutes to an hour.
+INFO:root:User: session cost | Bot: Session costs vary depending on treatment type. Please contact us for detailed pricing.
+INFO:root:User: do you do sports injury | Bot: Yes, we specialize in treating a wide range of sports injuries.
+INFO:root:User: payment method | Bot: None
+INFO:root:User: payment method | Bot: None
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: payment method accepted | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: can i call | Bot: None
+INFO:root:User: phone number | Bot: None
+INFO:root:User: do I need a referral | Bot: None
+INFO:root:User: do I need a referral | Bot: None
+INFO:root:User: do I need a referral to get physiotherapy | Bot: No referral is necessary. You can book an appointment directly with us.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: do you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: you accept insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: hello | Bot: None
+INFO:root:User: how much per session | Bot: Session costs vary depending on treatment type. Please contact us for detailed pricing.
+INFO:root:User: open hours | Bot: None
+INFO:root:User: shop hours | Bot: None
+INFO:root:User: when do you open | Bot: None
+INFO:root:User: when  are you guys open till | Bot: None
+INFO:root:User: who do you take payment | Bot: None
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: when do you open | Bot: None
+INFO:root:User: clinic open time | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: what is clinic time | Bot: None
+INFO:root:User: what is clinic time | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: when do you open clinic | Bot: None
+INFO:root:User: when do you open clinic | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: what is clinic hours | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: cinic time | Bot: None
+INFO:root:User: clinic time | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: who treats me | Bot: None
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: clinic time | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: are you open | Bot: None
+INFO:root:User: when do you open | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: how do you take payment | Bot: None
+INFO:root:User: how do you take money | Bot: None
+INFO:root:User: where are you located | Bot: None
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: do you take insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: What type of treatment you do | Bot: Our therapists use techniques such as manual therapy, exercise therapy, electrotherapy, and more.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: book | Bot: None
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do i book | Bot: None
+INFO:root:User: book an appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: book | Bot: None
+INFO:root:User: book a call | Bot: None
+INFO:root:User: book a appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: book a appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: book now | Bot: None
+INFO:root:User: book a call | Bot: None
+INFO:root:User: call now | Bot: None
+INFO:root:User: i want to know how to book a call | Bot: None
+INFO:root:User: i want to know how to schedule a call | Bot: None
+INFO:root:User: i want to know how to schedule a call | Bot: None
+INFO:root:User: schedule a call | Bot: None
+INFO:root:User: book an appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book an appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book an appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book an appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book an appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: schedule a call | Bot: None
+INFO:root:User: schedule a call | Bot: None
+INFO:root:User: schedule a call | Bot: None
+INFO:root:User: i WANT TO BOOK A CALL | Bot: None
+INFO:root:User: book a call | Bot: None
+INFO:root:User: schedule A CALL | Bot: None
+INFO:root:User: i WANT TO BOOK A CALL | Bot: None
+INFO:root:User: book a call | Bot: None
+INFO:root:User: book | Bot: None
+INFO:root:User: schedule a call | Bot: None
+INFO:root:User: book a appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book a call | Bot: None
+INFO:root:User: take appointment | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book a call | Bot: None
+INFO:root:User: schedule a call | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: how would i schedule a call | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book now | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler.
+INFO:root:User: i want to book a session | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system.
+INFO:root:User: i WANT TO BOOK A CALL | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler.
+INFO:root:User: i WANT TO BOOK A CALL | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: i WANT TO BOOK A CALL | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: how do you accept payment | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: do you accept paypal | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: who treats me | Bot: None
+INFO:root:User: what treatment do you do | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: do you accept paypal | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: who gives me treatment | Bot: None
+INFO:root:User: what do you treat | Bot: None
+INFO:root:User: what do you treat | Bot: None
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: payment | Bot: None
+INFO:root:User: payment by paypal | Bot: None
+INFO:root:User: payment by paypal | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: who treats me | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: when do you open | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: where are you | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: where are you located | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: who treats me | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: do you accept paypal | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: who treats me | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: how do you accept payment | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: insurance | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: do you accept paypal | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: who do i get better | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: how do i get better | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: what therapy will i get | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: what therapy will i get | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: when do you open | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: where are you located | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: who treats me | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: what therapy do you do | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: who treats me | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: wqd | Bot: None
+INFO:root:User: vdsdv | Bot: None
+INFO:root:User: v dv | Bot: None
+INFO:root:User: who treats me | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: who do i get treated | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: can i get therapy | Bot: Absolutely, post-surgical rehabilitation is a common and important part of recovery.
+INFO:root:User: what do i do i got whiplash | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: do you treat whiplash | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: do treat backpain | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: do you treat arthritis | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: when do you open | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: where are you located | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.
+INFO:root:User: when do you open | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: where are you located | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: do acept visa | Bot: Yes, we accept most major insurance plans. Please check with your provider to confirm coverage.
+INFO:root:User: how do i pay | Bot: We accept Visa, MasterCard, American Express, and PayPal.
+INFO:root:User: when do you open | Bot: Our clinic is open Monday to Friday from 8am to 6pm, and Saturdays from 9am to 1pm.
+INFO:root:User: where are you located | Bot: Our clinic is located at 123 Main Street, Springfield. Parking is available.
+INFO:root:User: who is this | Bot: None
+INFO:root:User: who treats me | Bot: None
+INFO:root:User: book | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system. {{cta}}
+INFO:root:User: book a call | Bot: To book a call, please call us at (123) 456-7890 or use our online scheduler. {{cta}}
+INFO:root:User: how to book | Bot: You can book an appointment by calling us at (123) 456-7890 or through our online booking system. {{cta}}
+INFO:root:User: who treats me | Bot: None
+INFO:root:User: what do you treat | Bot: We treat a variety of conditions including sports injuries, back pain, arthritis, post-surgery rehabilitation, and more.

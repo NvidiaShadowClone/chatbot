@@ -1,0 +1,80 @@
+<!-- Chatbot Embed Widget -->
+<style>
+  #chat-widget-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #0078D7;
+    border-radius: 50%;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+
+  #chat-widget-button.bait::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    background: red;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.4); opacity: 0.5; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  #chat-iframe {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 350px;
+    height: 450px;
+    border: none;
+    display: none;
+    z-index: 999;
+    box-shadow: 0 0 12px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+</style>
+
+<div id="chat-widget-button" class="bait">💬</div>
+<iframe id="chat-iframe" src="https://yourdomain.com/plugin"></iframe>
+
+<script>
+  const launcher = document.getElementById('chat-widget-button');
+  const iframe = document.getElementById('chat-iframe');
+
+  launcher.addEventListener('click', () => {
+    const isOpen = iframe.style.display === 'block';
+    iframe.style.display = isOpen ? 'none' : 'block';
+    if (!isOpen) {
+      launcher.classList.remove('bait');
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!iframe.contains(e.target) && !launcher.contains(e.target)) {
+      iframe.style.display = 'none';
+    }
+  });
+
+  // Optional: Add bait after 5 seconds if user hasn't clicked
+  setTimeout(() => {
+    if (iframe.style.display !== 'block') {
+      launcher.classList.add('bait');
+    }
+  }, 5000);
+</script>

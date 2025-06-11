@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --light-bg: #f9f9fb;
+      --light-gray: #e5e7eb;
+      --user-bg: #dbeafe;
+      --bot-bg: #e2e8f0;
+      --rounded: 12px;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--light-bg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .chatbot-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+      height: 90vh;
+      background: white;
+      border-radius: var(--rounded);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .chat-header {
+      background: var(--primary);
+      color: white;
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .chat-messages {
+      flex-grow: 1;
+      padding: 1rem;
+      overflow-y: auto;
+      background: var(--light-bg);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .message {
+      max-width: 80%;
+      padding: 0.75rem 1rem;
+      border-radius: var(--rounded);
+      font-size: 0.95rem;
+      line-height: 1.4;
+      word-wrap: break-word;
+      animation: fadeIn 0.2s ease-in;
+    }
+
+    .user-message {
+      align-self: flex-end;
+      background: var(--user-bg);
+    }
+
+    .bot-message {
+      align-self: flex-start;
+      background: var(--bot-bg);
+    }
+
+    .chat-input-container {
+      display: flex;
+      padding: 0.75rem;
+      border-top: 1px solid var(--light-gray);
+      background: white;
+    }
+
+    .chat-input {
+      flex: 1;
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--light-gray);
+      border-radius: 9999px;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .chat-submit {
+      margin-left: 0.5rem;
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.5rem 1.25rem;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .chat-submit:hover {
+      background: #4338ca;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(5px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* CTA Buttons */
+    .cta-button {
+      margin: 8px 6px 0 0;
+      padding: 10px 16px;
+      background-color: var(--primary);
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    .cta-button:hover {
+      background-color: #4338ca;
+    }
+
+    /* Typing indicator with animated dots */
+    .typing-indicator {
+      display: inline-block;
+      align-self: flex-start;
+      background: var(--bot-bg);
+      color: #6b7280;
+      font-size: 0.95rem;
+      font-style: italic;
+      border-radius: var(--rounded);
+      padding: 0.75rem 1rem;
+      position: relative;
+      min-width: 70px;
+    }
+
+    .typing-indicator::after {
+      content: 'Typing';
+      animation: typingDots 1.2s steps(4, end) infinite;
+    }
+
+    @keyframes typingDots {
+      0%   { content: 'Typing'; }
+      25%  { content: 'Typing.'; }
+      50%  { content: 'Typing..'; }
+      75%  { content: 'Typing...'; }
+      100% { content: 'Typing'; }
+    }
+  </style>
+</head>
+<body>
+  <div class="chatbot-container">
+    <div class="chat-header">Ask Me Anything</div>
+    <div id="chat-messages" class="chat-messages"></div>
+    <form id="chat-form" class="chat-input-container">
+      <input type="text" id="user-input" class="chat-input" placeholder="Type a message..." required />
+      <button type="submit" class="chat-submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/static/script.js?v=3"></script>
+</body>
+</html>
