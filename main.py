@@ -37,6 +37,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Health check endpoint to keep server awake
+@app.get("/ping")
+def ping():
+    return {"status": "awake"}
+
 # Enable logging to file
 logging.basicConfig(filename="chatbot.log", level=logging.INFO)
 
